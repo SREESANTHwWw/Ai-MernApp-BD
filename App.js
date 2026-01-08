@@ -2,7 +2,7 @@ const express = require("express");
 
 const cors = require("cors");
 const connectDB = require("./Db/connectDb");
-const aiRoute = require("../Server/Controllers/aiController")
+const aiRoute = require("./Controllers/aiController")
 const aiSave = require("./Controllers/saveaiController")
 
 require("dotenv").config();
