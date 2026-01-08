@@ -1,5 +1,5 @@
-import express from "express";
-import promptModel from"../Model/promptModel"
+const express = require("express")
+const promptModel = require("../Model/promptModel")
 
 const Router = express.Router()
 

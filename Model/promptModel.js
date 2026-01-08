@@ -1,4 +1,5 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose")
+
 
 const PromptSchem = new mongoose.Schema({
 

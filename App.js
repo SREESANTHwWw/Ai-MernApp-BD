@@ -1,11 +1,11 @@
-import express from "express";
+const express = require("express");
 
-import cors from "cors";
+const cors = require("cors");
 const connectDB = require("./Db/connectDb");
 const aiRoute = require("./Controllers/aiController")
 const aiSave = require("./Controllers/saveaiController")
-import dotenv from "dotenv";
-dotenv.config();
+
+require("dotenv").config();
 
 const app = express();
 
